@@ -54,7 +54,7 @@ gold-price-prediction-datalakehouse/
 
 
 ```
-### **Team Member 10**
+### 🧑‍🤝‍🧑**Team Member 10**
 #### Muhammad Bayu Syuhada
 #### Eksanty F Sugma Islamiaty
 #### Eli Dwi Putra Berema
