@@ -45,7 +45,7 @@ gold-price-prediction-datalakehouse/
 │   └── bi_rate.csv           
 │
 ├── src /
-│   ├── ingest_data.ipynb 
+│   ├── ingest_data.py 
 │   └── etl_spark.py
 │   └── spark_model.py         
 │   └── airflow_dag.py
