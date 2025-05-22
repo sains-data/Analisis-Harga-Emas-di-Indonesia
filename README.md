@@ -47,7 +47,7 @@ gold-price-prediction-datalakehouse/
 ├── src /
 │   ├── ingest_data.ipynb 
 │   └── etl_spark.py
-│   └── prediction_model.ipynb         
+│   └── spark_model.ipynb         
 │   └── airflow_dag.py
 └── models/
     └── gold_price_model.pkl
