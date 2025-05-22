@@ -23,18 +23,15 @@ This repository is an end-to-end implementation of a gold price prediction syste
 
 | No | Teknologi       | Kategori              | Fungsi Utama                                                                 |
 |----|------------------|------------------------|-------------------------------------------------------------------------------|
-| 1  | Hadoop HDFS      | Storage                | Menyimpan data dan hasil pemrosesan secara terdistribusi                     |
-| 2  | Apache Spark     | Processing             | Memproses data batch untuk transformasi dan pemodelan regresi                |
-| 3  | YARN             | Resource Management    | Mengelola sumber daya cluster dan menjalankan aplikasi secara paralel        |
-| 4  | Apache Hive      | Query Engine           | Menyediakan antarmuka SQL untuk akses dan analisis data                      |
-| 5  | Apache Oozie     | Workflow Scheduling    | Menjadwalkan pipeline batch untuk pemrosesan data berkala                    |
-| 6  | Apache Kafka     | Data Ingestion         | Mengalirkan dan mengumpulkan data secara batch dari berbagai sumber          |
-| 7  | Ambari           | Monitoring & Management| Memantau dan mengelola cluster Hadoop                                        |
+| 1  | Hadoop HDFS      | Storage                | Store data and processing results in a distributed manner                    |
+| 2  | Apache Spark     | Processing             | Process batch data for transformation and regression modeling                |
+| 3  | YARN             | Resource Management    | Manage cluster resources and run applications in parallel                    |
+| 4  | Apache Hive      | Query Engine           | Provide SQL interfaces for data access and analysis                          |
+| 5  | Apache Oozie     | Workflow Scheduling    | Schedule batch pipelines for periodic data processing                        |
+| 6  | Apache Kafka     | Data Ingestion         | Stream and batch collect data from multiple sources                          |
+| 7  | Ambari           | Monitoring & Management| Monitor and manage Hadoop clusters                                           |
 
 ## Pipeline
-
-
-
 
 ## 🗃️  Project Directory Structure
 ```
