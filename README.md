@@ -11,8 +11,6 @@ This repository is an end-to-end implementation of a gold price prediction syste
 
 - Data Lake Design: Implement Medallion Architecture (Bronze → Silver → Gold) to organize raw data, cleaned data, and analysis-ready data.
 
-- Data Engineering Workflow: Import and process macroeconomic data (BI Rate, inflation, exchange rate) using Apache Spark, convert source data (CSV) into efficient analytic formats such as Parquet.
-
 - Machine Learning Pipeline: Build Multiple Linear Regression models using Spark MLlib to predict gold prices based on economic variables.
 
 - Data Modeling & Storage: Store structured data in Hive Tables for easy querying and integration with business analytics tools.
