@@ -23,32 +23,35 @@ This repository is an end-to-end implementation of a gold price prediction syste
 
 | No | Teknologi       | Kategori              | Fungsi Utama                                                                 |
 |----|------------------|------------------------|-------------------------------------------------------------------------------|
-| 1  | Hadoop HDFS      | Storage                | Store data and processing results in a distributed manner                    |
-| 2  | Apache Spark     | Processing             | Process batch data for transformation and regression modeling                |
-| 3  | YARN             | Resource Management    | Manage cluster resources and run applications in parallel                    |
-| 4  | Apache Hive      | Query Engine           | Provide SQL interfaces for data access and analysis                          |
-| 5  | Apache Oozie     | Workflow Scheduling    | Schedule batch pipelines for periodic data processing                        |
-| 6  | Apache Kafka     | Data Ingestion         | Stream and batch collect data from multiple sources                          |
-| 7  | Ambari           | Monitoring & Management| Monitor and manage Hadoop clusters                                           |
+| 1  | Hadoop HDFS          | Storage                | Store data and processing results in a distributed manner                    |
+| 2  | Apache Spark         | Processing             | Process batch data for transformation and                                    |
+| 3  | Apache Hive          | Query Engine           | Provide SQL interfaces for data access and analysis                          |
+| 4  | Apache Spark MLlib   | Machine  Learning      | Regression modeling                                                                    |
 
-## Pipeline
 
 ## 🗃️  Project Directory Structure
 ```
 gold-price-prediction-datalakehouse/
 ├── README.md
 │
-├── datasets/
-│   ├── gold_price.csv       
-│   ├── kurs.csv     
-│   ├── inflation.csv        
-│   └── bi_rate.csv           
-│
-├── src /
-│   ├── ingest_data.py 
-│   └── etl_spark.py
-│   └── spark_model.py         
-│   └── airflow_dag.py
+├── dataset/
+│   ├── bronxe/
+│   │    ├── gold_price.csv       
+│   │    ├── kurs.csv     
+│   │    ├── inflation.csv        
+│   │    └── bi_rate.csv 
+│   ├── silver/
+│   ├── gold/
+├── Scripts /
+│   ├── data_ingestion/
+│   │   └── ingest_data.py
+│   ├── broze_to_silver/
+│   │   └── etl_spark.py
+│   └── silver-to_gold
+│       └── spark_model.py
+├── docker-compose.yml
+├── Dockerfile.dananode
+├── Dockerfile.namenode
 └── models/
     └── gold_price_model.pkl
 
