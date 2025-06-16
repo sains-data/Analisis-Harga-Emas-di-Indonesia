@@ -45,7 +45,7 @@ gold-price-prediction-datalakehouse/
 │   │   └── ingest_data.py
 │   ├── broze_to_silver/
 │   │   └── etl_spark.py
-│   └── silver-to_gold
+│   └── silver_to_gold
 │       └── spark_model.py
 ├── docker-compose.yml
 ├── Dockerfile.dananode
